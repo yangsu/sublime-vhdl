@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.2",
+  "packages": [
+    {
+      "name": "Sublime Text VHDL",
+      "description": "VHDL Package for Sublime Text 2",
+      "author": "yangsu",
+      "homepage": "https://github.com/yangsu/sublime-vhdl",
+      "last_modified": "2012-09-13 12:23:31",
+      "platforms": {
+        "*": [
+          {
+            "version": "0.1",
+            "url": "https://nodeload.github.com/yangsu/sublime-vhdl/zipball/master"
+          }
+        ]
+      }
+    }
+  ]
+}
