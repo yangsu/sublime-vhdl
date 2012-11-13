@@ -523,7 +523,7 @@
 					<key>end</key>
 					<string>(?x)
 						# The word end $1
-						\b((?:end))\s+
+						\b((?i:end))\s+
 
 						# The word component $3 or illegal word $4
 						(((?i:component\b))|(.+?))(?=\s*|;)
