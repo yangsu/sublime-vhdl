@@ -2005,7 +2005,7 @@
 						)?
 
 						# The word process #4
-						((?i:process))
+						((?i:process\b))
 					</string>
 					<key>beginCaptures</key>
 					<dict>
