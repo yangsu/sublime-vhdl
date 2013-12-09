@@ -1,0 +1,5 @@
+{
+    "cmd": ["ghdl", "-a", "$file"],
+    "path": "/usr/local/bin",
+    "selector": "source.vhd, source.vhdl"
+}
