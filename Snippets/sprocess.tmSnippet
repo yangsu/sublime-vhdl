@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:identifier} : process( ${2:clock}, ${3:reset} )
-begin${3/.+/\n\tif( $0 = '1' ) then\n\t\t/g}$0
+	<string>${1:identifier} : process( ${2:clock}, ${3:reset_n} )
+begin${3/.+/\n\tif( $0 = '0' ) then\n\t\t/g}$0
 	${3/.+/els/g}if( rising_edge(${2:clock}) ) then
 
 	end if ;
