@@ -1,0 +1,7 @@
+<snippet>
+  <tabTrigger>elsif</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>elsif ${1:expression} then
+	$0</content>
+  <description>elsif</description>
+</snippet>

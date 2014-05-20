@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>u</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>unsigned(${1:x} downto ${2:0}) ;$0</content>
+  <description>unsigned downto</description>
+</snippet>

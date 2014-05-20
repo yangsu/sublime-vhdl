@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>ur</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>unsigned(${1:signal}&apos;range) ;$0</content>
+  <description>unsigned range</description>
+</snippet>
