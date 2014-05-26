@@ -10,12 +10,6 @@
       "labels": ["language syntax"],
       "releases": [
         {
-          "version": "0.1.2",
-          "sublime_text": "<3000",
-          "url": "https://nodeload.github.com/yangsu/sublime-vhdl/zip/v0.1.2",
-          "date": "2012-11-13 15:52:20"
-        },
-        {
           "sublime_text": ">=3000",
           "details": "https://github.com/yangsu/sublime-vhdl"
         }
