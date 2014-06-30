@@ -1,0 +1,12 @@
+<snippet>
+  <tabTrigger>arch</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>architecture ${1:arch} of ${2:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+
+	signal $0
+
+begin
+
+end architecture ; -- ${1:arch}</content>
+  <description>architecture</description>
+</snippet>

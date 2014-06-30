@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>forg</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>${1:identifier} : for ${2:i} in ${3:x} to ${4:y} generate
+	$0
+end generate ; -- ${1:identifier}</content>
+  <description>for generate</description>
+</snippet>

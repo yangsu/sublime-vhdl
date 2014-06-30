@@ -1,0 +1,6 @@
+<snippet>
+  <tabTrigger>sr</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>signed(${1:signal}&apos;range) ;$0</content>
+  <description>signed range</description>
+</snippet>
