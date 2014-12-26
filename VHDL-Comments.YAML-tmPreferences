@@ -1,0 +1,6 @@
+
+name: VHDL Toggle Comments
+scope: source.vhdl
+settings:
+  shellVariables:
+  - {name: TM_COMMENT_START, value: '--'}
