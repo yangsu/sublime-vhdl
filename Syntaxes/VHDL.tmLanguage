@@ -2297,7 +2297,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:rising_edge|falling_edge|to_bit|to_bitvector|to_stdulogic|to_stdlogicvector|to_stdulogicvector|is_x|to_x01|to_x01z|to_ux01|to_01|to_string|to_hstring|to_ostring|minimum|maximum)\b</string>
+					<string>\b(?i:rising_edge|falling_edge|to_bit|to_bitvector|to_stdulogic|to_stdlogicvector|to_stdulogicvector|is_x|to_x01|to_x01z|to_ux01|to_01|to_string|to_hstring|to_ostring|minimum|maximum|swrite)\b</string>
 					<key>name</key>
 					<string>support.function.ieee.std_logic_1164.vhdl</string>
 				</dict>
