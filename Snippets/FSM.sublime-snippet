@@ -1,0 +1,52 @@
+<snippet>
+  <tabTrigger>FSM</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>    -- FSM syncronous process
+    process(${1:clk_i}, ${2:rst_i}) begin
+        if (rising_edge(${1:clk_i})) then
+            if (${2:rst_i} = '1') then
+                state_s &lt;= FSM_IDLE;
+            else
+                state_s &lt;= nextState_s;
+            end if;
+        end if;
+    end process;
+
+    -- FSM comb process
+    process(state_s, ...) begin
+        case (state_s) is
+
+            when FSM_IDLE =&gt;    
+                
+            when STATE_1 =&gt; 
+                
+            when STATE_2 =&gt; 
+                
+            when others =&gt; 
+                nextState_s &gt;= FSM_IDLE;
+        end case;
+    end process;
+
+    -- FSM output process
+    process(${1:clk_i}, ${2:rst_i}) begin
+        if (rising_edge(${1:clk_i})) then
+            if (${2:rst_i} = '1') then
+
+            else
+                case(nextState_s) is
+
+                    when FSM_IDLE =&gt;
+                        
+                    when STATE_1 =&gt; 
+                        
+                    when STATE_2 =&gt; 
+                        
+                    when others =&gt; null;
+                end case;
+            end if;
+        end if;
+    end process;</content>
+  <description>VHDL - Finite State Machine (FSM)</description>
+</snippet>
+
+
