@@ -23,7 +23,7 @@
             when STATE_2 =&gt; 
                 
             when others =&gt; 
-                nextState_s &gt;= FSM_IDLE;
+                nextState_s &lt;= FSM_IDLE;
         end case;
     end process;
 
