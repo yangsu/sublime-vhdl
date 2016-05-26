@@ -42,7 +42,7 @@ sub wanted {
     else {
         my @parts = split(/\./) ;
         $ext = lc(@parts[$#parts]) ;
-        if( $ext eq "vhd" or $ext eq "vhdl" ) {
+        if( $ext eq "vhd" or $ext eq "vhdl" or $ext eq "vht" ) {
             $_ = parsefile($File::Find::fullname, $keyword) ;
             if( $_ =~ m/.*$keyword.*/ ) {
                 print $_ ;

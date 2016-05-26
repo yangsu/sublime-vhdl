@@ -9,6 +9,7 @@
 		<string>vhd</string>
 		<string>vhdl</string>
 		<string>vho</string>
+		<string>vht</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
