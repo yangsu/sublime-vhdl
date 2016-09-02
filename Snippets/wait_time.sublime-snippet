@@ -3,6 +3,7 @@
   <scope>source.vhdl</scope>
   <content><![CDATA[
 wait for ${1:100} ${2:n}s;
+$0
 ]]></content>
   <description>wait for a time</description>
 </snippet>

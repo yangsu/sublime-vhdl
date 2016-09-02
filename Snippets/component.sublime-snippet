@@ -6,7 +6,8 @@ component ${1:name}
 	generic (
 	)
 	port (
-		$0 : ;
+		${2:clock} : ${3:std_logic};
+		$0
 	);
 end component;
 ]]></content>

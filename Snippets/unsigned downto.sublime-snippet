@@ -2,7 +2,7 @@
   <tabTrigger>u</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-unsigned(${1:x} downto ${2:0});$0
+unsigned(${1:x} downto ${2:0})$0
 ]]></content>
   <description>unsigned downto</description>
 </snippet>

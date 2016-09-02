@@ -4,7 +4,7 @@
   <content><![CDATA[
 architecture ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 
-	signal ${2:clock} : ; -- $0
+	signal ${2:clock} : ${3:std_logic}; -- $0
 
 begin
 

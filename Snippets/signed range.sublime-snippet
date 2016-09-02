@@ -2,7 +2,7 @@
   <tabTrigger>sr</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-signed(${1:signal}&apos;range);$0
+signed(${1:signal}'range)$0
 ]]></content>
   <description>signed range</description>
 </snippet>

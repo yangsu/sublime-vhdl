@@ -3,7 +3,7 @@
   <scope>source.vhdl</scope>
   <content><![CDATA[
 generic (
-		${0:clock} : ; --
+		${1:signal} : ${2:boolean}; -- $0
 	);
 ]]></content>;
   <description>entity architecture</description>

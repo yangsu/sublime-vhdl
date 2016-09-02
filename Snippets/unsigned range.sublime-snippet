@@ -2,7 +2,7 @@
   <tabTrigger>ur</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-unsigned(${1:signal}&apos;range);$0
+unsigned(${1:signal}'range);$0
 ]]></content>
   <description>unsigned range</description>
 </snippet>

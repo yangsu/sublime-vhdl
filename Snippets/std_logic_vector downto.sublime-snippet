@@ -2,7 +2,7 @@
   <tabTrigger>sv</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-std_logic_vector(${1:x} downto ${2:0});$0
+std_logic_vector(${1:x} downto ${2:0})$0
 ]]></content>
   <description>std_logic_vector downto</description>
 </snippet>

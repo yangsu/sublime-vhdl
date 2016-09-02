@@ -3,7 +3,7 @@
   <scope>source.vhdl</scope>
   <content><![CDATA[
 port (
-		${0:clock} : ; --
+		${1:clock} : ${2:std_logic}; -- $0
 	);
 ]]></content>;
   <description>entity architecture</description>
