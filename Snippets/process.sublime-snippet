@@ -1,9 +1,15 @@
 <snippet>
+  <description>synchronous process with asynchronous reset</description>
+  <content><![CDATA[
+${1:identifier} : process (${2:reset}, ${3:clock})
+begin
+  if (${2:reset} = '1') then
+    $0
+  elsif (rising_edge(${3:clock})) then
+
+  end if;
+end process ${1:identifier};
+]]></content>
   <tabTrigger>pro</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>${1:identifier} : process( ${2:sensitivity_list} )
-begin
-	$0
-end process ; -- ${1:identifier}</content>
-  <description>process</description>
 </snippet>

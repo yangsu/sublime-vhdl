@@ -1,12 +1,14 @@
 <snippet>
   <tabTrigger>arch</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>architecture ${1:arch} of ${2:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+  <content><![CDATA[
+architecture ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 
-	signal $0
+	signal ${2:clock} : ; -- $0
 
 begin
 
-end architecture ; -- ${1:arch}</content>
+end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc;
+]]></content>
   <description>architecture</description>
 </snippet>

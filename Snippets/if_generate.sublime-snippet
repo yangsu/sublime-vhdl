@@ -1,0 +1,10 @@
+<snippet>
+	<tabTrigger>ig</tabTrigger>
+	<scope>source.vhdl</scope>
+	<content><![CDATA[
+if (${1:variable}) generate
+	$0
+end generate;
+]]></content>
+ <description>if condition generate</description>
+</snippet>

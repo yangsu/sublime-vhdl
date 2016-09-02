@@ -1,8 +1,10 @@
 <snippet>
   <tabTrigger>if</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>if ${1:expression} then
+  <content><![CDATA[
+if (${1:expression}) then
 	$0
-end if ;</content>
+end if;
+]]></content>
   <description>if</description>
 </snippet>

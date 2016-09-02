@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>bl</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+block ${1:name}
+	$0
+end block ${1:name};
+]]></content>
+  <description>block, end block code construct</description>
+</snippet>

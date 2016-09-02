@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>port</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+port (
+		${0:clock} : ; --
+	);
+]]></content>;
+  <description>entity architecture</description>
+</snippet>

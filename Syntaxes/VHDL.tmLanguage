@@ -81,7 +81,7 @@
 
 						# The word architecture $1
 						\b((?i:architecture))\s+
-						
+
 						# Followed up by a valid $3 or invalid identifier $4
 						(([a-zA-z][a-zA-z0-9_]*)|(.+))(?=\s)\s+
 
@@ -528,7 +528,7 @@
 
 						# The word component $3 or illegal word $4
 						(((?i:component\b))|(.+?))(?=\s*|;)
-						
+
 						# Optional identifier $7 or illegal mismatched $8
 						(\s+((\3)|(.+?)))?(?=\s*;)
 					</string>
@@ -849,7 +849,7 @@
 
 						# Optional identifier match $6 or indentifier mismatch $7
 						(\s+((\3)|(.+?)))?
-						
+
 						# Make sure there is a semicolon following
 						(?=\s*;)
 					</string>
@@ -1164,7 +1164,7 @@
 						# The word function $1
 						((?i:function))\s+
 
-						
+
 						(
 							# A valid normal identifier $3
 							 ([a-zA-Z][a-zA-Z\d_]*)
@@ -2328,19 +2328,19 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:boolean|bit|character|severity_level|integer|real|time|delay_length|now|natural|positive|string|bit_vector|file_open_kind|file_open_status|fs|ps|ns|us|ms|sec|min|hr|severity_level|note|warning|error|failure)\b</string>
+					<string>\b(?i:bit|bit_vector|boolean|character|delay_length|error|failure|falling_edge|file_open_kind|file_open_status|fs|hr|integer|is_x|line|min|ms|natural|note|now|ns|positive|ps|real|resolved|rising_edge|sec|severity_level|signed|std_logic|std_logic_vector|std_ulogic|std_ulogic_vector|string|t_ux01z|t_x01|t_x01z|text|time|to_bit|to_bitvector|to_signed|to_stdlogicvector|to_stdulogic|to_stdulogicvector|to_unsigned|unsigned|us|ux01z|warning|x01|x01z)\b</string>
 					<key>name</key>
 					<string>support.type.std.standard.vhdl</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:line|text|side|width|input|output)\b</string>
+					<string>^[ \tA-Za-z0-9_]+:\b(?i:line|text|side|width|input|output)\b</string>
 					<key>name</key>
 					<string>support.type.std.textio.vhdl</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:std_logic|std_ulogic|std_logic_vector|std_ulogic_vector)\b</string>
+					<string>^[ \tA-Za-z0-9_]+:\b(?i:std_logic|std_ulogic|std_logic_vector|std_ulogic_vector)\b</string>
 					<key>name</key>
 					<string>support.type.ieee.std_logic_1164.vhdl</string>
 				</dict>

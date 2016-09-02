@@ -1,0 +1,9 @@
+<snippet>
+	<tabTrigger>sep</tabTrigger>
+	<scope>source.vhdl</scope>
+	<content><![CDATA[
+--------------------------------------------------------------------------------
+$0
+]]></content>
+ <description>separator - 80 chars wide</description>
+</snippet>

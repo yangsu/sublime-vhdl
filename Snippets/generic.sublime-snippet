@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>generic</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+generic (
+		${0:clock} : ; --
+	);
+]]></content>;
+  <description>entity architecture</description>
+</snippet>

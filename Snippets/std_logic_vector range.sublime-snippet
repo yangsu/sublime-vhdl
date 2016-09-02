@@ -1,6 +1,8 @@
 <snippet>
-  <tabTrigger>slvr</tabTrigger>
+  <tabTrigger>svr</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>std_logic_vector(${1:signal}&apos;range) ;$0</content>
+  <content><![CDATA[
+std_logic_vector(${1:signal}&apos;range);$0
+]]></content>
   <description>std_logic_vector range</description>
 </snippet>
