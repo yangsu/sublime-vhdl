@@ -1,6 +1,5 @@
 {
-    "cmd": ["vcom", "-2008","-work", "c:/Projects/work", "-explicit", "$file"],
-    "path": "C:/modeltech/win32pe",
-    "file_regex": "^\\*{2}\\s+[EorWanig]{5,7}:\\s+(C:[\\w\\(\\)\\+\\-\\_\\s\\\\]+?\\.vhd[l]?)\\((\\d+)\\)():(.*)$",
+    "cmd": ["ghdl", "-a", "$file"],
+    "path": "/usr/local/bin",
     "selector": "source.vhd, source.vhdl"
 }
