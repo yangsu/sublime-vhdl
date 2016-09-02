@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>conv_u</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+conv_unsigned(${1:value}, ${2:size})$0
+]]></content>
+  <description>to unsigned type conversion, std_logic_arith library</description>
+</snippet>

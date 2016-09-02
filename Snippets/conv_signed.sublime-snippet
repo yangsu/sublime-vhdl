@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>conv_si</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+conv_signed(${1:value}, ${2:size})$0
+]]></content>
+  <description>to signed type conversion, std_logic_arith library</description>
+</snippet>
