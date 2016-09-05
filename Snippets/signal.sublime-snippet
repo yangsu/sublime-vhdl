@@ -2,7 +2,7 @@
   <tabTrigger>si</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-signal ${1:name} : ${2:in} ${3:std_logic}; -- $0
+signal ${1:name} : ${2:std_logic}; -- $0
 ]]></content>
   <description>signal definition</description>
 </snippet>
