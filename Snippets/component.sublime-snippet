@@ -1,0 +1,15 @@
+<snippet>
+  <tabTrigger>comp</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+component ${1:name}
+	generic (
+	)
+	port (
+		${2:clock} : ${3:std_logic};
+		$0
+	);
+end component;
+]]></content>
+  <description>component declaration with generic</description>
+</snippet>

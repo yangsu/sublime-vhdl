@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>to_s</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+to_signed(${1:value}, ${2:width})$0
+]]></content>
+  <description>to signed type conversion, numeric_std library</description>
+</snippet>

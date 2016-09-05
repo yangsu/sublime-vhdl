@@ -1,20 +1,17 @@
 <snippet>
   <tabTrigger>entarch</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
-  port (
-	${0:clock}
-  ) ;
-end entity ; -- ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}
+  <content><![CDATA[
+entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+	port (
+		${2:clock} : ${3:std_logic}; -- $0
+	);
+end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};
 
-architecture ${2:arch} of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
-
-
-
+architecture ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 begin
 
-
-
-end architecture ; -- ${2:arch}</content>
+end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc;
+]]></content>;
   <description>entity architecture</description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>be</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+begin
+	$0
+end
+]]></content>
+  <description>process or entity begin phrase</description>
+</snippet>

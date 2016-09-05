@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>conv_i</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+conv_integer(${1:value})$0
+]]></content>
+  <description>to integer type conversion, std_logic_arith library</description>
+</snippet>

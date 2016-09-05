@@ -1,0 +1,31 @@
+
+#################################################################################################
+
+  VHDL Language Defintion
+
+#################################################################################################
+
+This package contains commands, snippets, language syntax definitions and build tool descriptions
+for the VHDL language.
+
+The build tools will probably need changing depending on your platform and available tools. To
+change this, overlay the build tool with a customised file depending on the path and tools by
+creating a VHDL directory in the Sublime user packages directory (Preferences -> Browse Packages)
+and create a new VHDL.sublime-build file with the required changes. You might need to change the
+selected build system via the Tools -> Build System -> VHDL menu.
+
+The package default is for ghdl on linux. This provides a build configuration of :
+{
+    "cmd": ["ghdl", "-a", "$file"],
+    "path": "/usr/local/bin",
+    "selector": "source.vhd, source.vhdl"
+}
+
+To change this to Modelsim, set the configuration to :
+{
+    "cmd": ["vcom", "-2008","-work", "c:/Projects/work", "-explicit", "$file"],
+    "path": "C:/modeltech/win32pe",
+    "file_regex": "^\\*{2}\\s+[A-Za-z\\s\\(\\)]+:\\s+(C:[\\w\\(\\)\\+\\-\\_\\s\\\\]+?\\.vhd[l]?)\\((\\d+)\\)():(.*)$",
+    "selector": "source.vhd, source.vhdl"
+}
+

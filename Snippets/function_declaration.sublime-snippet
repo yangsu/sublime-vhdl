@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>fd</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+function ${1:name} (${2:sensitivity_list}: ${3:signal_type}) return ${4:return_type}
+$0
+]]></content>
+  <description>function declaration</description>
+</snippet>

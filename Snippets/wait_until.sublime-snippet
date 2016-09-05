@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>wu</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+wait until ${1:clock} = '1';
+$0
+]]></content>
+  <description>wait until clock is high</description>
+</snippet>
