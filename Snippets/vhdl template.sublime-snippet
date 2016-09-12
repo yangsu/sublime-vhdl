@@ -9,7 +9,7 @@ use ieee.numeric_std.all;               -- for type conversions
 
 entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 	port (
-		${2:clock} : ${3:in} ${4:std_logic}; -- $0
+		${2:clock} $0: ${3:in} ${4:std_logic};
 	) ;
 end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};
 
