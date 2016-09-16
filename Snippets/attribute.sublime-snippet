@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>att</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+attribute ${1:name} of ${2:signal} : signal is ${3:"TRUE"};
+$0
+]]></content>
+  <description>attribute signal assignment</description>
+</snippet>
