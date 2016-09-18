@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:identifier}  : ${2:component_name}
+	generic map (
+		$0
+	)
+	port map (
+
+);</string>
+	<key>name</key>
+	<string>instantiation</string>
+	<key>scope</key>
+	<string>source.vhdl</string>
+	<key>tabTrigger</key>
+	<string>instantiation</string>
+</dict>
+</plist>

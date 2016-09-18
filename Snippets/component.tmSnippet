@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>component ${1:component_name}
+	generic (
+	   $0
+	;
+	port (
+
+	);
+end component ${1:component_name};</string>
+	<key>name</key>
+	<string>component</string>
+	<key>scope</key>
+	<string>source.vhdl</string>
+	<key>tabTrigger</key>
+	<string>component</string>
+</dict>
+</plist>
