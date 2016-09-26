@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>ot</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+(others => '${1:0}');$0
+]]></content>
+  <description>others assignment</description>
+</snippet>
