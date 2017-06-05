@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>to_i</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+to_integer(${1:value})$0
+]]></content>
+  <description>to integer type conversion, numeric_std library</description>
+</snippet>

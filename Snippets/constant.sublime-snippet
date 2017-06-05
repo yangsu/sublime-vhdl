@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>co</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+constant ${1:name} : ${2:boolean} := ${3:value};
+$0
+]]></content>
+  <description>constant signal definition</description>
+</snippet>

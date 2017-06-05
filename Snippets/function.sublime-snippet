@@ -1,0 +1,12 @@
+<snippet>
+  <tabTrigger>fu</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+function ${1:name} (${2:sensitivity_list}: ${3:signal_type}) return ${4:return_type} is
+begin
+	$0
+	return ${5:return_signal};
+end ${1:name};
+]]></content>
+  <description>function definition</description>
+</snippet>

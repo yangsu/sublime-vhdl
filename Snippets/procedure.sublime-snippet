@@ -1,0 +1,13 @@
+<snippet>
+  <tabTrigger>pd</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+procedure ${1:name} (
+	signal ${2:clock} : ${3:std_logic}; --
+) is
+begin
+	$0
+end ${1:name};
+]]></content>
+  <description>procedure definition</description>
+</snippet>

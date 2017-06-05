@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>conv_st</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+conv_std_logic_vector(${1:value}, ${2:size})$0
+]]></content>
+  <description>to std_logic_vector type conversion, std_logic_arith library</description>
+</snippet>

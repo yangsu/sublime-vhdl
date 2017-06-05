@@ -1,20 +1,23 @@
 <snippet>
   <tabTrigger>vhdl</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>library ieee ;
-	use ieee.std_logic_1164.all ;
-	use ieee.numeric_std.all ;
+  <content><![CDATA[
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;        -- for addition & counting
+use ieee.numeric_std.all;               -- for type conversions
 
 entity ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
-  port (
-	${0:clock}
-  ) ;
-end entity ; -- ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}
+	port (
+		${2:clock} $0: ${3:in} ${4:std_logic};
+	) ;
+end ${1:${TM_FILENAME/(.*?)(\..+)/$1/}};
 
-architecture ${2:arch} of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+architecture ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc of ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} is
 
 begin
 
-end architecture ; -- ${2:arch}</content>
+end  ${1:${TM_FILENAME/(.*?)(\..+)/$1/}}_arc;
+]]></content>
   <description>vhdl template</description>
 </snippet>

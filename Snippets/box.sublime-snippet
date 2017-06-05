@@ -1,0 +1,10 @@
+<snippet>
+	<tabTrigger>box</tabTrigger>
+	<scope>source.vhdl</scope>
+	<content><![CDATA[
+--------------------------------------------------------------------------------
+--  $0                                                                        --
+--------------------------------------------------------------------------------
+]]></content>
+ <description>comment box for VHDL</description>
+</snippet>

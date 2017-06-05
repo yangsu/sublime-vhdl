@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>si</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+signal ${1:name} $0: ${2:std_logic};
+]]></content>
+  <description>signal definition</description>
+</snippet>

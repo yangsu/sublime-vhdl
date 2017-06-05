@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>atmds</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+attribute MARK_DEBUG of ${1:signal} : signal is "TRUE";
+$0
+]]></content>
+  <description>attribute mark debug signal assignment</description>
+</snippet>

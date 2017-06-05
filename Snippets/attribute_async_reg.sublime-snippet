@@ -1,0 +1,9 @@
+<snippet>
+  <tabTrigger>atars</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content><![CDATA[
+attribute ASYNC_REG of ${1:signal} : signal is "TRUE";
+$0
+]]></content>
+  <description>attribute asynchronous (metastable) registers signal assignment</description>
+</snippet>

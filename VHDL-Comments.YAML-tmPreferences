@@ -4,3 +4,4 @@ scope: source.vhdl
 settings:
   shellVariables:
   - {name: TM_COMMENT_START, value: '--'}
+  - {name: TM_COMMENT_DISABLE_INDENT, value: 'yes'}

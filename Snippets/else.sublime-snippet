@@ -1,7 +1,9 @@
 <snippet>
-  <tabTrigger>else</tabTrigger>
+  <tabTrigger>el</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>else
-	$0</content>
+  <content><![CDATA[
+else
+	$0
+]]></content>
   <description>else</description>
 </snippet>

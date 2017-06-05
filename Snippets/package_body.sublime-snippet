@@ -1,14 +1,10 @@
 <snippet>
-  <tabTrigger>pa</tabTrigger>
+  <tabTrigger>pb</tabTrigger>
   <scope>source.vhdl</scope>
   <content><![CDATA[
-package ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}} is
-	$0
-end ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}};
-
 package body ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}} is
-
+  $0
 end ${1:${TM_FILENAME/(.*?)(\..+)/$1_p/}};
 ]]></content>
-  <description>package</description>
+  <description>package definition</description>
 </snippet>
