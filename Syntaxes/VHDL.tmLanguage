@@ -81,7 +81,7 @@
 
 						# The word architecture $1
 						\b((?i:architecture))\s+
-						
+
 						# Followed up by a valid $3 or invalid identifier $4
 						(([a-zA-z][a-zA-z0-9_]*)|(.+))(?=\s)\s+
 
@@ -528,7 +528,7 @@
 
 						# The word component $3 or illegal word $4
 						(((?i:component\b))|(.+?))(?=\s*|;)
-						
+
 						# Optional identifier $7 or illegal mismatched $8
 						(\s+((\3)|(.+?)))?(?=\s*;)
 					</string>
@@ -849,7 +849,7 @@
 
 						# Optional identifier match $6 or indentifier mismatch $7
 						(\s+((\3)|(.+?)))?
-						
+
 						# Make sure there is a semicolon following
 						(?=\s*;)
 					</string>
@@ -1164,7 +1164,7 @@
 						# The word function $1
 						((?i:function))\s+
 
-						
+
 						(
 							# A valid normal identifier $3
 							 ([a-zA-Z][a-zA-Z\d_]*)
