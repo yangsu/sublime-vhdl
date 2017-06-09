@@ -586,13 +586,13 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b([+\-]?[\d_]+\.[\d_]+([eE][+\-]?[\d_]+)?)\b</string>
+					<string>\b([+\-]?[\d_]+\.[\d_]+([eE][+-]?[\d_]+)?)\b</string>
 					<key>name</key>
 					<string>constant.numeric.floating_point.vhdl</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b\d+#[\h_]+#\b</string>
+					<string>\d+#[\h_]+(\.[\h_]+)?#([eE][+-]?[\d_]+)?</string>
 					<key>name</key>
 					<string>constant.numeric.base_pound_number_pound.vhdl</string>
 				</dict>
