@@ -592,7 +592,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b([&amp;'()*+,\-.\/:;&lt;=&gt;`|\[\]?@]|(=&gt;|\*\*|:=|\/=|&gt;=|&lt;=|&lt;&gt;|\?\?|\?=|\?\/=|\?&lt;|\?&lt;=|\?&gt;|\?&gt;=|&lt;&lt;|&gt;&gt;))?\s*\d+#[\h_\.]+#([eE]\+?[\d_]+)?</string>
+					<string>\d+#[\h_\.]+#([eE]\+?[\d_]+)?</string>
 					<key>name</key>
 					<string>constant.numeric.base_pound_number_pound.vhdl</string>
 				</dict>
