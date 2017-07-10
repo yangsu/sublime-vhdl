@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>loop</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>${1:identifier} : loop
+	$0
+end loop ; -- ${1:identifier}</content>
+  <description>loop</description>
+</snippet>
