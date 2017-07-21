@@ -1,0 +1,38 @@
+<snippet>
+  <tabTrigger>testbench</tabTrigger>
+  <scope>source.vhdl</scope>
+  <content>library ieee;
+use ieee.std_logic_1164.all;
+
+entity ${0:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+end entity ; -- ${0:${TM_FILENAME/(.*?)(\..+)/$1/}}
+
+architecture ${1:tbarch} of ${0:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+
+  component ${2:compname} is
+  port (
+    inX : in std_logic;
+    outY : out std_logic
+  ) ;
+   end component;
+
+   signal inX, outY : std_logic;
+begin
+   mapping: ${2:compname} port map(inX, outY);
+
+   process
+
+   begin
+      wait for 2 sec;
+
+   end process;
+end ${1:tbarch};
+
+
+configuration cfg_tb of ${0:${TM_FILENAME/(.*?)(\..+)/$1/}} is
+   for ${1:tbarch}
+   end for;
+end cfg_tb;
+  </content>
+  <description>testbench template file</description>
+</snippet>
